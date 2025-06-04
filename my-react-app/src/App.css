@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary-font: 'Poppins', sans-serif;
+  --primary-font: "Poppins", sans-serif;
 }
 
 body {
@@ -52,9 +52,12 @@ body {
 
 .profile-details {
   width: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+}
+.profile-details p {
+  font-size: 16px;
+  color: #212121;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
 .profile-img {
@@ -73,7 +76,7 @@ body {
   margin-top: 8px;
 }
 
-.details {
+.profile-details {
   margin-bottom: 12px;
 }
 
@@ -92,7 +95,6 @@ body {
 
 .edit {
   width: 55%;
-  display: flex;
   margin-top: 145px;
 }
 
@@ -106,8 +108,9 @@ body {
   width: 20px;
   height: 20px;
   cursor: pointer;
-  align-items: flex-start;
+  align-items: last baseline;
 }
+
 button {
   background: none;
   color: #212121;
@@ -117,7 +120,7 @@ button {
   padding: 12px 20px;
   border: none;
   display: flex;
-  align-items: center;
+  align-items: last baseline;
   gap: 8px;
 }
 
@@ -262,8 +265,6 @@ span {
   color: #212121;
   margin-bottom: 40px;
 }
-
-
 
 /* Responsive */
 @media (max-width: 540px) {

@@ -126,7 +126,7 @@ export default function App() {
           <div className="profile-img">
             <img src={profile.avatar} alt="Avatar" />
             <div className="profile-info">
-              <div className="details">
+              <div className="profile-details">
                 <h1>{profile.name}</h1>
                 <p>{profile.title}</p>
               </div>
@@ -144,7 +144,6 @@ export default function App() {
             </div>
           )}
         </section>
-
         <section id="outdoor-img">
           <div className="img-container">
             {cards.map((card, i) => (
